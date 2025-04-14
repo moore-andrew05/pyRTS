@@ -1,0 +1,16 @@
+[project]
+name = "python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.2.4",
+    "pygame-ce>=2.5.3",
+]
+
+[dependency-groups]
+lint = [
+    "jedi-language-server>=0.44.0",
+    "ruff>=0.11.5",
+]
